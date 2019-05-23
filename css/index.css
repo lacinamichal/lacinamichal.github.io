@@ -4,3 +4,39 @@ body {
 	background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 }
+
+/* MENU */
+
+#menu ul {
+	position: fixed;
+	top: 1px;
+	right: 1px;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+#menu ul li button {
+	background: #fdfdfd7d;
+    color: white;
+    border: none;
+    outline: inherit;
+}
+
+/* CONTENT */
+
+#content div {
+	width: 600px;
+	
+}
+
+/* COPYRIGHT */
+
+#copyright {
+	position: fixed;
+	bottom: 1px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.05em
+}
